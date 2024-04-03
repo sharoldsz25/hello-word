@@ -1,0 +1,27 @@
+---
+title: "Untitled"
+format: html
+execute: 
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# libraries
+library(tidyverse)
+
+# data
+titanic <- read_csv("titanic.csv") # reader
+titanic <- read.csv("/cloud/project/titanic.csv") # base
+```
+
+```{r}
+ggplot(titanic) +
+  aes(Age, Fare) +
+  geom_point()
+```
+

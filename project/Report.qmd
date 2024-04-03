@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Amazing Report
+
+R is **fantastic**, far better than *python*
+
+## Great Analyses
+
+```
